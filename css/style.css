@@ -1,0 +1,148 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+/*header start*/
+header {
+	background-color: white;
+	padding: 10px 0;
+}
+.wrapper {
+	/*border: 3px solid green;*/
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.logo {
+	width: 15%;
+	/*border: 3px solid white;*/
+	float: left;
+}
+.logo img {
+	width: 100%;
+}
+.menu {
+	width: 70%;
+	/*border: 3px solid white;*/
+	float: right;
+	margin-top: 10px;
+}
+.menu ul {
+	float: right;
+}
+.menu ul li {
+	list-style: none;
+	float: left;
+}
+.menu ul li a {
+	text-decoration: none;
+	padding: 0px 15px;
+	display: block;
+	color: #6d7275;
+	font-family: sans-serif;
+	font-weight: 600;
+	transition: .5s;
+}
+.menu ul li:last-child a {
+	padding-right: 0;
+}
+.menu ul li a:hover {
+	color: #FE9655;
+}
+/*header end*/
+/*banner start*/
+.banner {
+	background-image: url(../image/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 350px;
+}
+.banner-content {
+		width: 25%;
+		margin-top: 80px;
+		margin-left: 40px;
+		background-color: rgb(85, 73, 69, .5);
+		padding: 12px 15px;
+}
+.banner-content h1 {
+    margin-bottom: 20px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 600; 
+}
+.banner-content p {
+	margin-bottom: 26px;
+	color: white;
+}
+.banner-content button {
+    border: none;
+    border-radius: 4px;
+    padding: 4px 8px;
+    font-size: 18px;
+    font-weight: 500;
+    transition: .5s;
+    cursor: pointer;
+}
+.banner-content button:hover {
+	color: #F1904C;
+}
+
+/*banner end*/
+/*service start*/
+.service {
+	background-color: white;
+	padding: 50px 0;
+	overflow: hidden;
+	text-align: center;
+}
+.single {
+	width: 33%;
+	/*border: 1px solid red;*/
+	float: left;
+	/*margin: 15px 16px;*/
+	/*padding: 18px 8px;*/
+}
+.single h2 {
+	font-family: sans-serif;
+	color: #a0a09f;
+	margin-bottom: 15px;
+}
+.single p {
+	font-family: sans-serif;
+	color: #5f5e5e;
+	margin: 23px 0;
+}
+.single button {
+	border: none;
+	border-radius: 4px;
+	background-color: #455f80;
+	color: white;	
+	padding: 10px 20px;
+	margin-bottom: 15px;
+	cursor: pointer;
+}
+.single button:hover {
+	background-color: #66494B;
+}
+/*service end*/
+/*footer start*/
+footer {
+	background-color: white;
+	padding: 15px 25px;
+}
+.footer-content {
+	text-align: center;
+}
+.footer-content h3 {
+	font-family: sans-serif;
+	color: #455f80;
+	margin-bottom: 5px;
+}
+.footer-content p {
+	font-family: sans-serif;
+	color: #455f80;
+}
+/*footer end*/
